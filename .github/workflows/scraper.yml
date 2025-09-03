@@ -26,7 +26,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("httr2","dplyr","purrr"), repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages(c("httr2","dplyr","purrr","jsonlite"), repos="https://cloud.r-project.org")'
 
       - name: Run scraper
         run: |
