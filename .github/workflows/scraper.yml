@@ -14,6 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true  # zorgt dat GITHUB_TOKEN gebruikt wordt
 
       - name: Install system dependencies
@@ -40,4 +41,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/alle_rondes.csv
           git commit -m "Update data [skip ci]" || echo "No changes to commit"
-          git push
+          git push origin main
