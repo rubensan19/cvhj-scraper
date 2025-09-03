@@ -11,36 +11,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repository met credentials voor push
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: true  # zorgt dat GITHUB_TOKEN gebruikt wordt
+          persist-credentials: true  # hierdoor kan git push GITHUB_TOKEN gebruiken
 
+      # 2️⃣ (Optioneel) System dependencies, kan meestal weg voor httr2
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
 
+      # 3️⃣ Set up R
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: "4.3.1"
 
+      # 4️⃣ Install R packages
       - name: Install R packages
         run: |
           Rscript -e 'install.packages(c("httr2","dplyr","purrr","jsonlite"), repos="https://cloud.r-project.org")'
 
+      # 5️⃣ Run scraper
       - name: Run scraper
         run: |
           Rscript scraper.R
 
+      # 6️⃣ Commit & push results
       - name: Commit results
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/alle_rondes.csv
           git commit -m "Update data [skip ci]" || echo "No changes to commit"
-          # Zet remote URL met token
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/rubensan19/cvhj-scraper.git
-          git push origin main
+          git push
