@@ -41,5 +41,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/alle_rondes.csv
           git commit -m "Update data [skip ci]" || echo "No changes to commit"
+          # Zet remote URL met token
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/rubensan19/cvhj-scraper.git
           git push origin main
