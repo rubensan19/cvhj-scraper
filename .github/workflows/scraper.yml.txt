@@ -1,0 +1,38 @@
+name: CVHJ Scraper
+
+on:
+  schedule:
+    # 14:00 NL tijd → 12:00 UTC
+    - cron: "0 12 * * *"
+    # 23:15 NL tijd → 21:15 UTC
+    - cron: "15 21 * * *"
+  workflow_dispatch:       # handmatig triggeren
+
+jobs:
+  run_scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.3.1"
+
+      - name: Install packages
+        run: |
+          Rscript -e 'install.packages(c("httr2","dplyr","purrr"))'
+
+      - name: Run scraper
+        run: |
+          Rscript scraper.R
+
+      - name: Commit results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/alle_rondes.csv
+          git commit -m "Update data [skip ci]" || echo "No changes to commit"
+          git push
