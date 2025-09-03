@@ -1,4 +1,11 @@
+packages <- c("httr2","dplyr","purrr")
+installed <- packages %in% rownames(installed.packages())
+if(any(!installed)) install.packages(packages[!installed], repos="https://cloud.r-project.org")
+
+library(httr2)
 library(dplyr)
+library(purrr)
+
 source("R/functions.R")
 
 # Data ophalen
