@@ -2,11 +2,9 @@ name: CVHJ Scraper
 
 on:
   schedule:
-    # 14:00 NL tijd → 12:00 UTC
-    - cron: "0 12 * * *"
-    # 23:15 NL tijd → 21:15 UTC
-    - cron: "15 21 * * *"
-  workflow_dispatch:       # handmatig triggeren
+    - cron: "0 12 * * *"    # 14:00 NL tijd
+    - cron: "15 21 * * *"   # 23:15 NL tijd
+  workflow_dispatch:         # handmatig starten
 
 jobs:
   run_scraper:
@@ -16,15 +14,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: "4.3.1"
 
-      - name: Install packages
+      - name: Install R packages
         run: |
-         Rscript -e 'install.packages(c("httr2","dplyr","purrr"), repos="https://cloud.r-project.org")'
-
+          Rscript -e 'install.packages(c("httr2","dplyr","purrr"), repos="https://cloud.r-project.org")'
 
       - name: Run scraper
         run: |
