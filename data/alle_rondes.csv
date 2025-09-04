@@ -1,41 +1,41 @@
-"ranking_na_ronde","ranking_voor_ronde","punten_na_aftrek","punten_zonder_aftrek","totaal_aantal_punten","fantasycoach_id","coach_name","team_name","city","team_value","active","badge_id","badge_img","ronde"
-1,1,67,67,67,147999,"Paul","Tedder’s Equipo","Alkmaar",31750000,TRUE,NA,NA,1
-2,2,54,54,54,142412,"Ivar","Kamertjes","Amsterdam",32000000,TRUE,NA,NA,1
-3,3,50,50,50,148561,"De boswachter","Ex Wageningen Mafia","Wageningen",31500000,TRUE,2676,"rewards/100_20.png",1
-4,4,47,47,47,121124,"Mitchell","3e helft!","Alkmaar",32000000,TRUE,NA,NA,1
-5,5,41,41,41,144801,"Kasper","Hammarby","Stockholm",30250000,TRUE,2607,"rewards/100_20.png",1
-6,6,41,41,41,163444,"Schut","FC Continuïteit","Alkmaar",32000000,TRUE,NA,NA,1
-7,7,37,37,37,142373,"The Unt","Yunited","Amsterdam",32000000,TRUE,NA,NA,1
-8,8,36,36,36,131580,"Pieter Kraakman","Kraakie's Army","Alkmaar",31750000,TRUE,NA,NA,1
-9,9,34,34,34,93910,"Paul","Pupillen vd week","Amsterdam",32000000,TRUE,1046,"rewards/100_20.png",1
-10,10,28,28,28,140774,"Coach Jur","Willen winnen","Alkmaar",30000000,TRUE,NA,NA,1
-1,1,54,67,121,147999,"Paul","Tedder’s Equipo","Alkmaar",31750000,TRUE,NA,NA,2
-2,4,44,47,91,121124,"Mitchell","3e helft!","Alkmaar",31750000,TRUE,NA,NA,2
-3,3,39,50,89,148561,"De boswachter","Ex Wageningen Mafia","Wageningen",31750000,TRUE,2676,"rewards/100_20.png",2
-4,6,42,41,83,163444,"Schut","FC Continuïteit","Alkmaar",31750000,TRUE,NA,NA,2
-5,2,28,54,82,142412,"Ivar","Kamertjes","Amsterdam",31750000,TRUE,NA,NA,2
-6,9,39,34,73,93910,"Paul","Pupillen vd week","Amsterdam",31750000,TRUE,1046,"rewards/100_20.png",2
-7,8,34,36,70,131580,"Pieter Kraakman","Kraakie's Army","Alkmaar",32000000,TRUE,NA,NA,2
-8,7,32,37,69,142373,"The Unt","Yunited","Amsterdam",31750000,TRUE,NA,NA,2
-9,5,19,41,60,144801,"Kasper","Hammarby","Stockholm",31250000,TRUE,2607,"rewards/100_20.png",2
-10,10,25,28,53,140774,"Coach Jur","Willen winnen","Alkmaar",30250000,TRUE,NA,NA,2
-1,1,54,54,175,147999,"Paul","Tedder’s Equipo","Alkmaar",32000000,TRUE,NA,NA,3
-2,2,55,44,146,121124,"Mitchell","3e helft!","Alkmaar",32000000,TRUE,NA,NA,3
-3,3,36,39,125,148561,"De boswachter","Ex Wageningen Mafia","Wageningen",30500000,TRUE,2676,"rewards/100_20.png",3
-4,8,47,32,116,142373,"The Unt","Yunited","Amsterdam",31750000,TRUE,NA,NA,3
-5,5,34,28,116,142412,"Ivar","Kamertjes","Amsterdam",31750000,TRUE,NA,NA,3
-6,4,24,42,107,163444,"Schut","FC Continuïteit","Alkmaar",31500000,TRUE,NA,NA,3
-7,6,27,39,100,93910,"Paul","Pupillen vd week","Amsterdam",32000000,TRUE,1046,"rewards/100_20.png",3
-8,7,25,34,95,131580,"Pieter Kraakman","Kraakie's Army","Alkmaar",32000000,TRUE,NA,NA,3
-9,9,32,19,92,144801,"Kasper","Hammarby","Stockholm",31250000,TRUE,2607,"rewards/100_20.png",3
-10,10,19,25,72,140774,"Coach Jur","Willen winnen","Alkmaar",30250000,TRUE,NA,NA,3
-1,1,25,54,200,147999,"Paul","Tedder’s Equipo","Alkmaar",31250000,TRUE,NA,NA,4
-2,2,18,55,164,121124,"Mitchell","3e helft!","Alkmaar",32000000,TRUE,NA,NA,4
-3,3,38,36,163,148561,"De boswachter","Ex Wageningen Mafia","Wageningen",31250000,TRUE,2676,"rewards/100_20.png",4
-4,4,37,47,153,142373,"The Unt","Yunited","Amsterdam",31250000,TRUE,NA,NA,4
-5,5,28,34,144,142412,"Ivar","Kamertjes","Amsterdam",32000000,TRUE,NA,NA,4
-6,9,50,32,142,144801,"Kasper","Hammarby","Stockholm",30750000,TRUE,2607,"rewards/100_20.png",4
-7,7,21,27,121,93910,"Paul","Pupillen vd week","Amsterdam",32000000,TRUE,1046,"rewards/100_20.png",4
-8,6,12,24,119,163444,"Schut","FC Continuïteit","Alkmaar",32000000,TRUE,NA,NA,4
-9,8,10,25,105,131580,"Pieter Kraakman","Kraakie's Army","Alkmaar",32000000,TRUE,NA,NA,4
-10,10,12,19,84,140774,"Coach Jur","Willen winnen","Alkmaar",32000000,TRUE,NA,NA,4
+"ranking_na_ronde","ranking_voor_ronde","punten_na_aftrek","punten_zonder_aftrek","totaal_aantal_punten","fantasycoach_id","coach_name","team_name","city","team_value","active","badge_id","badge_img","ronde","ronde_status","winst","verlies","side_pot_ronde_ronde","side_pot_cumulatief"
+1,1,67,67,67,147999,"Paul","Tedder’s Equipo","Alkmaar",31750000,TRUE,NA,NA,1,"rondewinnaar",7.5,0,0,0
+2,2,54,54,54,142412,"Ivar","Kamertjes","Amsterdam",32000000,TRUE,NA,NA,1,NA,0,0,0,0
+3,3,50,50,50,148561,"De boswachter","Ex Wageningen Mafia","Wageningen",31500000,TRUE,2676,"rewards/100_20.png",1,NA,0,0,0,0
+4,4,47,47,47,121124,"Mitchell","3e helft!","Alkmaar",32000000,TRUE,NA,NA,1,NA,0,0,0,0
+5,5,41,41,41,144801,"Kasper","Hammarby","Stockholm",30250000,TRUE,2607,"rewards/100_20.png",1,NA,0,0,0,0
+6,6,41,41,41,163444,"Schut","FC Continuïteit","Alkmaar",32000000,TRUE,NA,NA,1,NA,0,0,0,0
+7,7,37,37,37,142373,"The Unt","Yunited","Amsterdam",32000000,TRUE,NA,NA,1,NA,0,0,0,0
+8,8,36,36,36,131580,"Pieter Kraakman","Kraakie's Army","Alkmaar",31750000,TRUE,NA,NA,1,NA,0,0,0,0
+9,9,34,34,34,93910,"Paul","Pupillen vd week","Amsterdam",32000000,TRUE,1046,"rewards/100_20.png",1,"1_na_laatst",0,2.5,0,0
+10,10,28,28,28,140774,"Coach Jur","Willen winnen","Alkmaar",30000000,TRUE,NA,NA,1,"rondeverliezer",0,5,0,0
+1,1,54,67,121,147999,"Paul","Tedder’s Equipo","Alkmaar",31750000,TRUE,NA,NA,2,"rondewinnaar",7.5,0,0,0
+2,4,44,47,91,121124,"Mitchell","3e helft!","Alkmaar",31750000,TRUE,NA,NA,2,NA,0,0,0,0
+3,3,39,50,89,148561,"De boswachter","Ex Wageningen Mafia","Wageningen",31750000,TRUE,2676,"rewards/100_20.png",2,NA,0,0,0,0
+4,6,42,41,83,163444,"Schut","FC Continuïteit","Alkmaar",31750000,TRUE,NA,NA,2,NA,0,0,0,0
+5,2,28,54,82,142412,"Ivar","Kamertjes","Amsterdam",31750000,TRUE,NA,NA,2,NA,0,0,0,0
+6,9,39,34,73,93910,"Paul","Pupillen vd week","Amsterdam",31750000,TRUE,1046,"rewards/100_20.png",2,NA,0,0,0,0
+7,8,34,36,70,131580,"Pieter Kraakman","Kraakie's Army","Alkmaar",32000000,TRUE,NA,NA,2,NA,0,0,0,0
+8,7,32,37,69,142373,"The Unt","Yunited","Amsterdam",31750000,TRUE,NA,NA,2,NA,0,0,0,0
+9,5,19,41,60,144801,"Kasper","Hammarby","Stockholm",31250000,TRUE,2607,"rewards/100_20.png",2,"rondeverliezer",0,5,0,0
+10,10,25,28,53,140774,"Coach Jur","Willen winnen","Alkmaar",30250000,TRUE,NA,NA,2,"1_na_laatst",0,2.5,0,0
+1,1,54,54,175,147999,"Paul","Tedder’s Equipo","Alkmaar",32000000,TRUE,NA,NA,3,NA,0,0,0,0
+2,2,55,44,146,121124,"Mitchell","3e helft!","Alkmaar",32000000,TRUE,NA,NA,3,"rondewinnaar",7.5,0,0,0
+3,3,36,39,125,148561,"De boswachter","Ex Wageningen Mafia","Wageningen",30500000,TRUE,2676,"rewards/100_20.png",3,NA,0,0,0,0
+4,8,47,32,116,142373,"The Unt","Yunited","Amsterdam",31750000,TRUE,NA,NA,3,NA,0,0,0,0
+5,5,34,28,116,142412,"Ivar","Kamertjes","Amsterdam",31750000,TRUE,NA,NA,3,NA,0,0,0,0
+6,4,24,42,107,163444,"Schut","FC Continuïteit","Alkmaar",31500000,TRUE,NA,NA,3,"1_na_laatst",0,2.5,0,0
+7,6,27,39,100,93910,"Paul","Pupillen vd week","Amsterdam",32000000,TRUE,1046,"rewards/100_20.png",3,NA,0,0,0,0
+8,7,25,34,95,131580,"Pieter Kraakman","Kraakie's Army","Alkmaar",32000000,TRUE,NA,NA,3,NA,0,0,0,0
+9,9,32,19,92,144801,"Kasper","Hammarby","Stockholm",31250000,TRUE,2607,"rewards/100_20.png",3,NA,0,0,0,0
+10,10,19,25,72,140774,"Coach Jur","Willen winnen","Alkmaar",30250000,TRUE,NA,NA,3,"rondeverliezer",0,5,0,0
+1,1,25,54,200,147999,"Paul","Tedder’s Equipo","Alkmaar",31250000,TRUE,NA,NA,4,NA,0,0,2.5,2.5
+2,2,18,55,164,121124,"Mitchell","3e helft!","Alkmaar",32000000,TRUE,NA,NA,4,NA,0,0,2.5,2.5
+3,3,38,36,163,148561,"De boswachter","Ex Wageningen Mafia","Wageningen",31250000,TRUE,2676,"rewards/100_20.png",4,NA,0,0,2.5,2.5
+4,4,37,47,153,142373,"The Unt","Yunited","Amsterdam",31250000,TRUE,NA,NA,4,NA,0,0,2.5,2.5
+5,5,28,34,144,142412,"Ivar","Kamertjes","Amsterdam",32000000,TRUE,NA,NA,4,NA,0,0,2.5,2.5
+6,9,50,32,142,144801,"Kasper","Hammarby","Stockholm",30750000,TRUE,2607,"rewards/100_20.png",4,"rondewinnaar",7.5,0,2.5,2.5
+7,7,21,27,121,93910,"Paul","Pupillen vd week","Amsterdam",32000000,TRUE,1046,"rewards/100_20.png",4,NA,0,0,2.5,2.5
+8,6,12,24,119,163444,"Schut","FC Continuïteit","Alkmaar",32000000,TRUE,NA,NA,4,"meerdere_1_na_laatst",0,2.5,2.5,2.5
+9,8,10,25,105,131580,"Pieter Kraakman","Kraakie's Army","Alkmaar",32000000,TRUE,NA,NA,4,"rondeverliezer",0,5,2.5,2.5
+10,10,12,19,84,140774,"Coach Jur","Willen winnen","Alkmaar",32000000,TRUE,NA,NA,4,"meerdere_1_na_laatst",0,2.5,2.5,2.5
