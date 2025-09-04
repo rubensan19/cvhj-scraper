@@ -55,7 +55,7 @@ extra_geld <- df_result %>%
     totaal_verlies = sum(verlies),
     totaal_winst = sum(winst),
     verwacht_verlies = 5 + 2.5,
-    side_pot_ronde_ronde = totaal_verlies - verwacht_verlies,
+    side_pot_ronde = totaal_verlies - verwacht_verlies,
     netto_rondestand = totaal_verlies - totaal_winst, # saldo die ronde
     .groups = "drop"
   ) %>%
@@ -65,7 +65,7 @@ extra_geld <- df_result %>%
 
 # Terugplakken in de hoofdset
 alle_rondes  <- df_result %>%
-  left_join(extra_geld %>% select(ronde, side_pot_ronde_ronde, side_pot_cumulatief),
+  left_join(extra_geld %>% select(ronde, side_pot_ronde, side_pot_cumulatief),
             by = "ronde")
 
 # CSV wegschrijven
