@@ -1,4 +1,4 @@
-"ranking_na_ronde","ranking_voor_ronde","punten_na_aftrek","punten_zonder_aftrek","totaal_aantal_punten","fantasycoach_id","coach_name","team_name","city","team_value","active","badge_id","badge_img","ronde","ronde_status","winst","verlies","side_pot_ronde_ronde","side_pot_cumulatief"
+"ranking_na_ronde","ranking_voor_ronde","punten_na_aftrek","punten_zonder_aftrek","totaal_aantal_punten","fantasycoach_id","coach_name","team_name","city","team_value","active","badge_id","badge_img","ronde","ronde_status","winst","verlies","side_pot_ronde","side_pot_cumulatief"
 1,1,67,67,67,147999,"Paul","Tedder’s Equipo","Alkmaar",31750000,TRUE,NA,NA,1,"rondewinnaar",7.5,0,0,0
 2,2,54,54,54,142412,"Ivar","Kamertjes","Amsterdam",32000000,TRUE,NA,NA,1,NA,0,0,0,0
 3,3,50,50,50,148561,"De boswachter","Ex Wageningen Mafia","Wageningen",31500000,TRUE,2676,"rewards/100_20.png",1,NA,0,0,0,0
