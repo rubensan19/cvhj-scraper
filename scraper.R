@@ -68,6 +68,9 @@ alle_rondes  <- df_result %>%
   left_join(extra_geld %>% select(ronde, side_pot_ronde, side_pot_cumulatief),
             by = "ronde")
 
+alle_rondes <- alle_rondes |>
+  select(-coach_name)
+
 # CSV wegschrijven
 dir.create("data", showWarnings = FALSE)
 write.csv(alle_rondes, "data/alle_rondes.csv", row.names = FALSE)
