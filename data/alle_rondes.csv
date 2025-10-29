@@ -82,7 +82,7 @@
 1,1,58,42,402,147999,"Tedder’s Equipo","Alkmaar",32000000,TRUE,NA,NA,9,NA,0,0,0,2.5
 2,3,62,39,374,142412,"Kamertjes","Amsterdam",30750000,TRUE,NA,NA,9,NA,0,0,0,2.5
 3,2,53,40,370,121124,"3e helft!","Alkmaar",29250000,TRUE,NA,NA,9,NA,0,0,0,2.5
-4,4,59,41,343,144801,"Hammarby","Stockholm",30750000,TRUE,2607,"rewards/100_20.png",9,NA,0,0,0,2.5
+4,4,60,41,344,144801,"Hammarby","Stockholm",30750000,TRUE,2607,"rewards/100_20.png",9,NA,0,0,0,2.5
 5,5,56,38,336,131580,"Kraakie's Army","Alkmaar",31750000,TRUE,NA,NA,9,NA,0,0,0,2.5
 6,7,70,25,334,142373,"Yunited","Amsterdam",31000000,TRUE,NA,NA,9,NA,0,0,0,2.5
 7,9,76,24,319,93910,"Pupillen vd week","Amsterdam",30750000,TRUE,1046,"rewards/100_20.png",9,"rondewinnaar",7.5,0,0,2.5
@@ -94,7 +94,7 @@
 3,3,38,53,408,121124,"3e helft!","Alkmaar",29500000,TRUE,NA,NA,10,NA,0,0,0,2.5
 4,6,42,70,376,142373,"Yunited","Amsterdam",31000000,TRUE,NA,NA,10,NA,0,0,0,2.5
 5,5,39,56,375,131580,"Kraakie's Army","Alkmaar",31500000,TRUE,NA,NA,10,NA,0,0,0,2.5
-6,4,30,59,373,144801,"Hammarby","Stockholm",30500000,TRUE,2607,"rewards/100_20.png",10,"rondeverliezer",0,5,0,2.5
+6,4,30,60,374,144801,"Hammarby","Stockholm",30500000,TRUE,2607,"rewards/100_20.png",10,"rondeverliezer",0,5,0,2.5
 7,8,58,55,360,140774,"Willen winnen","Alkmaar",31500000,TRUE,NA,NA,10,"rondewinnaar",7.5,0,0,2.5
 8,7,40,76,359,93910,"Pupillen vd week","Amsterdam",30750000,TRUE,1046,"rewards/100_20.png",10,NA,0,0,0,2.5
 9,9,31,29,331,148561,"Ex Wageningen Mafia","Wageningen",29000000,TRUE,2676,"rewards/100_20.png",10,"1_na_laatst",0,2.5,0,2.5
