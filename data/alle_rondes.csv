@@ -159,13 +159,13 @@
 8,8,40,47,605,144801,"Hammarby","Stockholm",32000000,TRUE,41667,"rewards/cup-20_ipfYgIB.png",16,NA,0,0,0,2.5
 9,9,49,58,573,163444,"FC Continuïteit","Alkmaar",30500000,TRUE,37798,"rewards/cup-20_ipfYgIB.png",16,NA,0,0,0,2.5
 10,10,38,45,538,148561,"Ex Wageningen Mafia","Wageningen",31500000,TRUE,46151,"rewards/cup-20_ipfYgIB.png",16,"1_na_laatst",0,2.5,0,2.5
-1,1,10,54,705,147999,"Tedder’s Equipo","Alkmaar",29500000,TRUE,43117,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,0,2.5
-2,2,10,45,689,142412,"Kamertjes","Amsterdam",31250000,TRUE,46979,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,0,2.5
-3,3,7,63,674,140774,"Willen winnen","Alkmaar",31500000,TRUE,44899,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,0,2.5
-4,5,8,35,656,131580,"Kraakie's Army","Alkmaar",32000000,TRUE,37879,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,0,2.5
-5,4,4,41,653,142373,"Yunited","Amsterdam",30750000,TRUE,44248,"rewards/cup-20_ipfYgIB.png",17,"1_na_laatst",0,2.5,0,2.5
-6,6,8,52,643,93910,"Pupillen vd week","Amsterdam",31750000,TRUE,47383,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,0,2.5
-7,7,13,40,638,121124,"3e helft!","Alkmaar",31500000,TRUE,41018,"rewards/cup-20_ipfYgIB.png",17,"rondewinnaar",7.5,0,0,2.5
-8,8,3,40,608,144801,"Hammarby","Stockholm",32000000,TRUE,41667,"rewards/cup-20_ipfYgIB.png",17,"rondeverliezer",0,5,0,2.5
-9,9,10,49,583,163444,"FC Continuïteit","Alkmaar",32000000,TRUE,37798,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,0,2.5
-10,10,11,38,549,148561,"Ex Wageningen Mafia","Wageningen",31750000,TRUE,46151,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,0,2.5
+1,1,16,54,711,147999,"Tedder’s Equipo","Alkmaar",29500000,TRUE,43117,"rewards/cup-20_ipfYgIB.png",17,"rondewinnaar",7.5,0,7.5,10
+2,2,7,45,686,142412,"Kamertjes","Amsterdam",31250000,TRUE,46979,"rewards/cup-20_ipfYgIB.png",17,"meerdere_1_na_laatst",0,2.5,7.5,10
+3,3,7,63,674,140774,"Willen winnen","Alkmaar",31500000,TRUE,44899,"rewards/cup-20_ipfYgIB.png",17,"meerdere_1_na_laatst",0,2.5,7.5,10
+4,4,10,41,659,142373,"Yunited","Amsterdam",30750000,TRUE,44248,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,7.5,10
+5,5,6,35,654,131580,"Kraakie's Army","Alkmaar",32000000,TRUE,37879,"rewards/cup-20_ipfYgIB.png",17,"meerdere_rondeverliezer",0,5,7.5,10
+6,6,14,52,649,93910,"Pupillen vd week","Amsterdam",31750000,TRUE,47383,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,7.5,10
+7,7,13,40,638,121124,"3e helft!","Alkmaar",31500000,TRUE,41018,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,7.5,10
+8,8,6,40,611,144801,"Hammarby","Stockholm",32000000,TRUE,41667,"rewards/cup-20_ipfYgIB.png",17,"meerdere_rondeverliezer",0,5,7.5,10
+9,9,10,49,583,163444,"FC Continuïteit","Alkmaar",32000000,TRUE,37798,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,7.5,10
+10,10,15,38,553,148561,"Ex Wageningen Mafia","Wageningen",31750000,TRUE,46151,"rewards/cup-20_ipfYgIB.png",17,NA,0,0,7.5,10
