@@ -329,13 +329,13 @@
 8,7,44,31,1228,131580,"Kraakie's Army","Alkmaar",32000000,TRUE,NA,NA,33,NA,0,0,0,15
 9,8,35,47,1218,144801,"Hammarby","Stockholm",32000000,TRUE,2607,"rewards/100_20.png",33,"1_na_laatst",0,2.5,0,15
 10,10,69,41,1202,148561,"Ex Wageningen Mafia","Wageningen",31750000,TRUE,2676,"rewards/100_20.png",33,"rondewinnaar",7.5,0,0,15
-1,1,2,48,1466,142412,"Kamertjes","Amsterdam",30750000,TRUE,NA,NA,34,"meerdere_1_na_laatst",0,2.5,20,35
-2,2,8,50,1456,93910,"Pupillen vd week","Amsterdam",30250000,TRUE,1046,"rewards/100_20.png",34,"meerdere_winnaars",2.5,0,20,35
-3,3,8,31,1423,147999,"Tedder’s Equipo","Alkmaar",30750000,TRUE,NA,NA,34,"meerdere_winnaars",2.5,0,20,35
-4,4,8,48,1373,142373,"Yunited","Amsterdam",30250000,TRUE,NA,NA,34,"meerdere_winnaars",2.5,0,20,35
-5,5,0,44,1327,140774,"Willen winnen","Alkmaar",31250000,TRUE,NA,NA,34,"meerdere_rondeverliezer",0,5,20,35
-6,6,2,59,1238,163444,"FC Continuïteit","Alkmaar",30750000,TRUE,NA,NA,34,"meerdere_1_na_laatst",0,2.5,20,35
-7,7,0,37,1235,121124,"3e helft!","Alkmaar",31250000,TRUE,NA,NA,34,"meerdere_rondeverliezer",0,5,20,35
-8,8,0,44,1228,131580,"Kraakie's Army","Alkmaar",32000000,TRUE,NA,NA,34,"meerdere_rondeverliezer",0,5,20,35
-9,9,0,35,1218,144801,"Hammarby","Stockholm",32000000,TRUE,2607,"rewards/100_20.png",34,"meerdere_rondeverliezer",0,5,20,35
-10,10,2,69,1204,148561,"Ex Wageningen Mafia","Wageningen",31750000,TRUE,2676,"rewards/100_20.png",34,"meerdere_1_na_laatst",0,2.5,20,35
+1,1,60,48,1524,142412,"Kamertjes","Amsterdam",30750000,TRUE,NA,NA,34,"rondewinnaar",7.5,0,5,20
+2,2,41,50,1489,93910,"Pupillen vd week","Amsterdam",30250000,TRUE,1046,"rewards/100_20.png",34,NA,0,0,5,20
+3,3,43,31,1458,147999,"Tedder’s Equipo","Alkmaar",30750000,TRUE,NA,NA,34,NA,0,0,5,20
+4,4,59,48,1424,142373,"Yunited","Amsterdam",30250000,TRUE,NA,NA,34,NA,0,0,5,20
+5,5,34,44,1361,140774,"Willen winnen","Alkmaar",31250000,TRUE,NA,NA,34,"1_na_laatst",0,2.5,5,20
+6,7,51,37,1286,121124,"3e helft!","Alkmaar",31250000,TRUE,NA,NA,34,NA,0,0,5,20
+7,6,39,59,1275,163444,"FC Continuïteit","Alkmaar",30750000,TRUE,NA,NA,34,NA,0,0,5,20
+8,8,27,44,1255,131580,"Kraakie's Army","Alkmaar",32000000,TRUE,NA,NA,34,"meerdere_rondeverliezer",0,5,5,20
+9,9,37,35,1255,144801,"Hammarby","Stockholm",32000000,TRUE,2607,"rewards/100_20.png",34,NA,0,0,5,20
+10,10,27,69,1229,148561,"Ex Wageningen Mafia","Wageningen",31750000,TRUE,2676,"rewards/100_20.png",34,"meerdere_rondeverliezer",0,5,5,20
